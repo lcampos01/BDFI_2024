@@ -1,0 +1,321 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: app-namespace
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mongodb
+  namespace: app-namespace
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: mongodb
+  template:
+    metadata:
+      labels:
+        app: mongodb
+    spec:
+      containers:
+      - name: mongodb
+        image: lcampos01/practica_creativa_docker-mongo:latest
+        ports:
+        - containerPort: 27017
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: mongodb
+  namespace: app-namespace
+spec:
+  selector:
+    app: mongodb
+  ports:
+  - protocol: TCP
+    port: 27017
+    targetPort: 27017
+    
+---    
+    
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: zookeeper
+  namespace: app-namespace
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: zookeeper
+  template:
+    metadata:
+      labels:
+        app: zookeeper
+    spec:
+      containers:
+      - name: zookeeper
+        image: lcampos01/practica_creativa_docker-zookeper:latest
+        ports:
+        - containerPort: 2181
+        
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: zookeeper
+  namespace: app-namespace
+spec:
+  selector:
+    app: zookeeper
+  ports:
+  - protocol: TCP
+    port: 2181
+    targetPort: 2181
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: kafka
+  namespace: app-namespace
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: kafka
+  template:
+    metadata:
+      labels:
+        app: kafka
+    spec:
+      containers:
+      - env:
+          - name: KAFKA_PORT
+            value: "9092"
+        image: lcampos01/practica_creativa_docker-kafka:latest
+        name: kafka
+        ports:
+        - containerPort: 9092
+        - containerPort: 9093
+        
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: kafka
+  namespace: app-namespace
+spec:
+  selector:
+    app: kafka
+  ports:
+  - protocol: TCP
+    port: 9092
+    targetPort: 9092
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: spark-master
+  namespace: app-namespace
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: spark-master
+  template:
+    metadata:
+      labels:
+        app: spark-master
+    spec:
+      containers:
+      - name: spark-master
+        image: lcampos01/practica_creativa_docker-spark-master:latest
+        ports:
+        - containerPort: 7077
+        - containerPort: 8080
+        
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: spark-master
+  namespace: app-namespace
+spec:
+  selector:
+    app: spark-master
+  ports:
+  - protocol: TCP
+    port: 7077
+    targetPort: 7077
+    name: spark-rpc
+  - protocol: TCP
+    port: 8080
+    targetPort: 8080
+    name: spark-ui
+
+
+---
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: spark-worker-1
+  namespace: app-namespace
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: spark-worker-1
+  template:
+    metadata:
+      labels:
+        app: spark-worker-1
+    spec:
+      containers:
+      - name: spark-worker-1
+        image: lcampos01/practica_creativa_docker-spark-worker:latest
+        ports:
+        - containerPort: 8081
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: spark-worker-1
+  namespace: app-namespace
+spec:
+  selector:
+    app: spark-worker-1
+  ports:
+  - protocol: TCP
+    port: 8081
+    targetPort: 8081
+
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: spark-worker-2
+  namespace: app-namespace
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: spark-worker-2
+  template:
+    metadata:
+      labels:
+        app: spark-worker-2
+    spec:
+      containers:
+      - name: spark-worker-2
+        image: lcampos01/practica_creativa_docker-spark-worker:latest
+        ports:
+        - containerPort: 8081
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: spark-worker-2
+  namespace: app-namespace
+spec:
+  selector:
+    app: spark-worker-2
+  ports:
+  - protocol: TCP
+    port: 8082
+    targetPort: 8081
+
+
+
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: spark-submit
+  namespace: app-namespace
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: spark-submit
+  template:
+    metadata:
+      labels:
+        app: spark-submit
+    spec:
+      containers:
+      - name: spark-submit
+        image: lcampos01/practica_creativa_docker-spark-submit:latest
+        ports:
+        - containerPort: 8080
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: spark-submit
+  namespace: app-namespace
+spec:
+  selector:
+    app: spark-submit
+  ports:
+  - protocol: TCP
+    port: 8080
+    targetPort: 8080
+
+
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: flask-app
+  namespace: app-namespace
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: flask-app
+  template:
+    metadata:
+      labels:
+        app: flask-app
+    spec:
+      containers:
+      - name: flask-app
+        image: lcampos01/practica_creativa_docker-flask_app:latest
+        ports:
+        - containerPort: 5000
+        env:
+        - name: PROJECT_HOME
+          value: /app
+        - name: FLASK_ENV
+          value: development
+        resources:
+          limits:
+            memory: "512Mi"
+            cpu: "500m"
+
+
+
+
+
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: flask-app
+  namespace: app-namespace
+spec:
+  selector:
+    app: flask-app
+  ports:
+  - protocol: TCP
+    port: 5000
+    targetPort: 5000
+
+
+

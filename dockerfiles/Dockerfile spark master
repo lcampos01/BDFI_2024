@@ -1,0 +1,14 @@
+FROM apache/spark:3.3.3  # Replace with chosen version
+
+# Copy Spark configuration scripts (if needed)
+COPY ./inits/init_spark_master.sh /docker-entrypoint-initdb.d/init_spark_master.sh
+COPY ./flight_prediction /opt/bitnami/spark/flight_prediction
+COPY ./resources /opt/bitnami/spark/resources
+
+# Set environment variables (if needed)
+ENV SPARK_MASTER_HOST=spark-master  # Adjust if necessary
+
+VOLUME /opt/bitnami/spark
+
+# CMD to run the service
+CMD ["/bin/bash", "/docker-entrypoint-initdb.d/init_spark_master.sh"]

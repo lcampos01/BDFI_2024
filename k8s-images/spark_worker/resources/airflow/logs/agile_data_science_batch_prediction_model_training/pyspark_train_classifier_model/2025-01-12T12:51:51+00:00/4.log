@@ -1,0 +1,50 @@
+[2025-01-12 14:15:53,481] {taskinstance.py:903} INFO - Dependencies all met for <TaskInstance: agile_data_science_batch_prediction_model_training.pyspark_train_classifier_model 2025-01-12T12:51:51+00:00 [queued]>
+[2025-01-12 14:15:53,494] {taskinstance.py:903} INFO - Dependencies all met for <TaskInstance: agile_data_science_batch_prediction_model_training.pyspark_train_classifier_model 2025-01-12T12:51:51+00:00 [queued]>
+[2025-01-12 14:15:53,495] {taskinstance.py:1095} INFO - 
+--------------------------------------------------------------------------------
+[2025-01-12 14:15:53,495] {taskinstance.py:1096} INFO - Starting attempt 4 of 4
+[2025-01-12 14:15:53,495] {taskinstance.py:1097} INFO - 
+--------------------------------------------------------------------------------
+[2025-01-12 14:15:53,515] {taskinstance.py:1115} INFO - Executing <Task(BashOperator): pyspark_train_classifier_model> on 2025-01-12T12:51:51+00:00
+[2025-01-12 14:15:53,519] {standard_task_runner.py:52} INFO - Started process 289248 to run task
+[2025-01-12 14:15:53,525] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'agile_data_science_batch_prediction_model_training', 'pyspark_train_classifier_model', '2025-01-12T12:51:51+00:00', '--job-id', '5', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/train_model_dag.py', '--cfg-path', '/tmp/tmpohlk5gd3', '--error-file', '/tmp/tmp8crnqtef']
+[2025-01-12 14:15:53,526] {standard_task_runner.py:77} INFO - Job 5: Subtask pyspark_train_classifier_model
+[2025-01-12 14:15:53,582] {logging_mixin.py:109} INFO - Running <TaskInstance: agile_data_science_batch_prediction_model_training.pyspark_train_classifier_model 2025-01-12T12:51:51+00:00 [running]> on host jorge-HP-Laptop-14s-dq1xxx
+[2025-01-12 14:15:53,640] {taskinstance.py:1252} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=agile_data_science_batch_prediction_model_training
+AIRFLOW_CTX_TASK_ID=pyspark_train_classifier_model
+AIRFLOW_CTX_EXECUTION_DATE=2025-01-12T12:51:51+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2025-01-12T12:51:51+00:00
+[2025-01-12 14:15:53,642] {subprocess.py:52} INFO - Tmp dir root location: 
+ /tmp
+[2025-01-12 14:15:53,646] {subprocess.py:63} INFO - Running command: ['bash', '-c', '\nspark-submit --master local[8]   /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker//resources/train_spark_mllib_model.py   /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/']
+[2025-01-12 14:15:53,663] {subprocess.py:74} INFO - Output:
+[2025-01-12 14:16:00,492] {subprocess.py:78} INFO - 25/01/12 14:16:00 WARN Utils: Your hostname, jorge-HP-Laptop-14s-dq1xxx resolves to a loopback address: 127.0.1.1; using 192.168.1.45 instead (on interface enx00e04c68c1ed)
+[2025-01-12 14:16:00,498] {subprocess.py:78} INFO - 25/01/12 14:16:00 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+[2025-01-12 14:16:01,240] {subprocess.py:78} INFO - 25/01/12 14:16:01 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+[2025-01-12 14:16:01,404] {subprocess.py:78} INFO - Exception in thread "main" org.apache.spark.SparkException: Failed to get main class in JAR with error 'File file:/home/jorge/Desktop/MÁSTER/SEGUNDO does not exist'.  Please specify one with --class.
+[2025-01-12 14:16:01,404] {subprocess.py:78} INFO - 	at org.apache.spark.deploy.SparkSubmit.error(SparkSubmit.scala:1001)
+[2025-01-12 14:16:01,405] {subprocess.py:78} INFO - 	at org.apache.spark.deploy.SparkSubmit.prepareSubmitEnvironment(SparkSubmit.scala:501)
+[2025-01-12 14:16:01,405] {subprocess.py:78} INFO - 	at org.apache.spark.deploy.SparkSubmit.org$apache$spark$deploy$SparkSubmit$$runMain(SparkSubmit.scala:923)
+[2025-01-12 14:16:01,405] {subprocess.py:78} INFO - 	at org.apache.spark.deploy.SparkSubmit.doRunMain$1(SparkSubmit.scala:191)
+[2025-01-12 14:16:01,405] {subprocess.py:78} INFO - 	at org.apache.spark.deploy.SparkSubmit.submit(SparkSubmit.scala:214)
+[2025-01-12 14:16:01,405] {subprocess.py:78} INFO - 	at org.apache.spark.deploy.SparkSubmit.doSubmit(SparkSubmit.scala:90)
+[2025-01-12 14:16:01,405] {subprocess.py:78} INFO - 	at org.apache.spark.deploy.SparkSubmit$$anon$2.doSubmit(SparkSubmit.scala:1072)
+[2025-01-12 14:16:01,406] {subprocess.py:78} INFO - 	at org.apache.spark.deploy.SparkSubmit$.main(SparkSubmit.scala:1081)
+[2025-01-12 14:16:01,406] {subprocess.py:78} INFO - 	at org.apache.spark.deploy.SparkSubmit.main(SparkSubmit.scala)
+[2025-01-12 14:16:01,466] {subprocess.py:82} INFO - Command exited with return code 1
+[2025-01-12 14:16:01,471] {taskinstance.py:1463} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/env/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1165, in _run_raw_task
+    self._prepare_and_execute_task_with_callbacks(context, task)
+  File "/home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/env/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1283, in _prepare_and_execute_task_with_callbacks
+    result = self._execute_task(context, task_copy)
+  File "/home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/env/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1313, in _execute_task
+    result = task_copy.execute(context=context)
+  File "/home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/env/lib/python3.8/site-packages/airflow/operators/bash.py", line 176, in execute
+    raise AirflowException('Bash command failed. The command returned a non-zero exit code.')
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code.
+[2025-01-12 14:16:01,473] {taskinstance.py:1506} INFO - Marking task as FAILED. dag_id=agile_data_science_batch_prediction_model_training, task_id=pyspark_train_classifier_model, execution_date=20250112T125151, start_date=20250112T131553, end_date=20250112T131601
+[2025-01-12 14:16:01,511] {local_task_job.py:151} INFO - Task exited with return code 1
+[2025-01-12 14:16:01,532] {local_task_job.py:261} INFO - 0 downstream tasks scheduled from follow-on schedule check

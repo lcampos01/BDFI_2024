@@ -1,0 +1,281 @@
+[2025-01-12 13:50:54,604] {processor.py:162} INFO - Started process (PID=280968) to work on /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py
+[2025-01-12 13:50:54,605] {processor.py:613} INFO - Processing file /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py for tasks to queue
+[2025-01-12 13:50:54,606] {logging_mixin.py:109} INFO - [2025-01-12 13:50:54,606] {dagbag.py:496} INFO - Filling up the DagBag from /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py
+[2025-01-12 13:50:54,616] {processor.py:623} INFO - DAG(s) dict_keys(['agile_data_science_batch_prediction_model_training']) retrieved from /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py
+[2025-01-12 13:50:55,652] {logging_mixin.py:109} INFO - [2025-01-12 13:50:55,651] {dag.py:1834} INFO - Sync 1 DAGs
+[2025-01-12 13:50:55,662] {logging_mixin.py:109} INFO - [2025-01-12 13:50:55,661] {dag.py:1853} INFO - Creating ORM DAG for agile_data_science_batch_prediction_model_training
+[2025-01-12 13:50:55,665] {logging_mixin.py:109} INFO - [2025-01-12 13:50:55,664] {dag.py:2287} INFO - Setting next_dagrun for agile_data_science_batch_prediction_model_training to None
+[2025-01-12 13:50:55,680] {processor.py:170} INFO - Processing /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py took 1.078 seconds
+[2025-01-12 13:51:30,331] {processor.py:162} INFO - Started process (PID=281150) to work on /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py
+[2025-01-12 13:51:30,332] {processor.py:613} INFO - Processing file /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py for tasks to queue
+[2025-01-12 13:51:30,333] {logging_mixin.py:109} INFO - [2025-01-12 13:51:30,333] {dagbag.py:496} INFO - Filling up the DagBag from /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py
+[2025-01-12 13:51:30,366] {processor.py:623} INFO - DAG(s) dict_keys(['agile_data_science_batch_prediction_model_training']) retrieved from /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py
+[2025-01-12 13:51:30,386] {logging_mixin.py:109} INFO - [2025-01-12 13:51:30,386] {dag.py:1834} INFO - Sync 1 DAGs
+[2025-01-12 13:51:30,398] {logging_mixin.py:109} INFO - [2025-01-12 13:51:30,398] {dag.py:2287} INFO - Setting next_dagrun for agile_data_science_batch_prediction_model_training to None
+[2025-01-12 13:51:30,410] {processor.py:170} INFO - Processing /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py took 0.081 seconds
+[2025-01-12 13:52:04,063] {processor.py:162} INFO - Started process (PID=281325) to work on /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py
+[2025-01-12 13:52:04,065] {processor.py:613} INFO - Processing file /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py for tasks to queue
+[2025-01-12 13:52:04,065] {logging_mixin.py:109} INFO - [2025-01-12 13:52:04,065] {dagbag.py:496} INFO - Filling up the DagBag from /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py
+[2025-01-12 13:52:04,080] {processor.py:623} INFO - DAG(s) dict_keys(['agile_data_science_batch_prediction_model_training']) retrieved from /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py
+[2025-01-12 13:52:04,089] {logging_mixin.py:109} INFO - [2025-01-12 13:52:04,089] {dag.py:1834} INFO - Sync 1 DAGs
+[2025-01-12 13:52:04,095] {logging_mixin.py:109} INFO - [2025-01-12 13:52:04,095] {dag.py:2287} INFO - Setting next_dagrun for agile_data_science_batch_prediction_model_training to None
+[2025-01-12 13:52:04,102] {processor.py:170} INFO - Processing /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py took 0.042 seconds
+[2025-01-12 13:52:37,130] {processor.py:162} INFO - Started process (PID=281507) to work on /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py
+[2025-01-12 13:52:37,131] {processor.py:613} INFO - Processing file /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py for tasks to queue
+[2025-01-12 13:52:37,131] {logging_mixin.py:109} INFO - [2025-01-12 13:52:37,131] {dagbag.py:496} INFO - Filling up the DagBag from /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py
+[2025-01-12 13:52:37,152] {processor.py:623} INFO - DAG(s) dict_keys(['agile_data_science_batch_prediction_model_training']) retrieved from /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py
+[2025-01-12 13:52:37,163] {logging_mixin.py:109} INFO - [2025-01-12 13:52:37,163] {dag.py:1834} INFO - Sync 1 DAGs
+[2025-01-12 13:52:37,171] {logging_mixin.py:109} INFO - [2025-01-12 13:52:37,170] {dag.py:2287} INFO - Setting next_dagrun for agile_data_science_batch_prediction_model_training to None
+[2025-01-12 13:52:37,184] {processor.py:170} INFO - Processing /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py took 0.055 seconds
+[2025-01-12 13:53:18,942] {processor.py:162} INFO - Started process (PID=281760) to work on /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py
+[2025-01-12 13:53:18,943] {processor.py:613} INFO - Processing file /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py for tasks to queue
+[2025-01-12 13:53:18,944] {logging_mixin.py:109} INFO - [2025-01-12 13:53:18,944] {dagbag.py:496} INFO - Filling up the DagBag from /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py
+[2025-01-12 13:53:18,972] {processor.py:623} INFO - DAG(s) dict_keys(['agile_data_science_batch_prediction_model_training']) retrieved from /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py
+[2025-01-12 13:53:18,989] {logging_mixin.py:109} INFO - [2025-01-12 13:53:18,988] {dag.py:1834} INFO - Sync 1 DAGs
+[2025-01-12 13:53:19,004] {logging_mixin.py:109} INFO - [2025-01-12 13:53:19,004] {dag.py:2287} INFO - Setting next_dagrun for agile_data_science_batch_prediction_model_training to None
+[2025-01-12 13:53:19,020] {processor.py:170} INFO - Processing /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py took 0.081 seconds
+[2025-01-12 13:53:53,690] {processor.py:162} INFO - Started process (PID=281926) to work on /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py
+[2025-01-12 13:53:53,691] {processor.py:613} INFO - Processing file /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py for tasks to queue
+[2025-01-12 13:53:53,692] {logging_mixin.py:109} INFO - [2025-01-12 13:53:53,692] {dagbag.py:496} INFO - Filling up the DagBag from /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py
+[2025-01-12 13:53:53,711] {processor.py:623} INFO - DAG(s) dict_keys(['agile_data_science_batch_prediction_model_training']) retrieved from /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py
+[2025-01-12 13:53:53,732] {logging_mixin.py:109} INFO - [2025-01-12 13:53:53,731] {dag.py:1834} INFO - Sync 1 DAGs
+[2025-01-12 13:53:53,746] {logging_mixin.py:109} INFO - [2025-01-12 13:53:53,746] {dag.py:2287} INFO - Setting next_dagrun for agile_data_science_batch_prediction_model_training to None
+[2025-01-12 13:53:53,758] {processor.py:170} INFO - Processing /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py took 0.070 seconds
+[2025-01-12 13:54:28,155] {processor.py:162} INFO - Started process (PID=282090) to work on /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py
+[2025-01-12 13:54:28,157] {processor.py:613} INFO - Processing file /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py for tasks to queue
+[2025-01-12 13:54:28,158] {logging_mixin.py:109} INFO - [2025-01-12 13:54:28,158] {dagbag.py:496} INFO - Filling up the DagBag from /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py
+[2025-01-12 13:54:28,177] {processor.py:623} INFO - DAG(s) dict_keys(['agile_data_science_batch_prediction_model_training']) retrieved from /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py
+[2025-01-12 13:54:28,190] {logging_mixin.py:109} INFO - [2025-01-12 13:54:28,190] {dag.py:1834} INFO - Sync 1 DAGs
+[2025-01-12 13:54:28,198] {logging_mixin.py:109} INFO - [2025-01-12 13:54:28,198] {dag.py:2287} INFO - Setting next_dagrun for agile_data_science_batch_prediction_model_training to None
+[2025-01-12 13:54:28,207] {processor.py:170} INFO - Processing /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py took 0.055 seconds
+[2025-01-12 13:55:01,488] {processor.py:162} INFO - Started process (PID=282245) to work on /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py
+[2025-01-12 13:55:01,489] {processor.py:613} INFO - Processing file /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py for tasks to queue
+[2025-01-12 13:55:01,490] {logging_mixin.py:109} INFO - [2025-01-12 13:55:01,490] {dagbag.py:496} INFO - Filling up the DagBag from /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py
+[2025-01-12 13:55:01,507] {processor.py:623} INFO - DAG(s) dict_keys(['agile_data_science_batch_prediction_model_training']) retrieved from /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py
+[2025-01-12 13:55:01,515] {logging_mixin.py:109} INFO - [2025-01-12 13:55:01,515] {dag.py:1834} INFO - Sync 1 DAGs
+[2025-01-12 13:55:01,523] {logging_mixin.py:109} INFO - [2025-01-12 13:55:01,523] {dag.py:2287} INFO - Setting next_dagrun for agile_data_science_batch_prediction_model_training to None
+[2025-01-12 13:55:01,530] {processor.py:170} INFO - Processing /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py took 0.047 seconds
+[2025-01-12 13:55:34,291] {processor.py:162} INFO - Started process (PID=282408) to work on /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py
+[2025-01-12 13:55:34,293] {processor.py:613} INFO - Processing file /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py for tasks to queue
+[2025-01-12 13:55:34,294] {logging_mixin.py:109} INFO - [2025-01-12 13:55:34,294] {dagbag.py:496} INFO - Filling up the DagBag from /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py
+[2025-01-12 13:55:34,309] {processor.py:623} INFO - DAG(s) dict_keys(['agile_data_science_batch_prediction_model_training']) retrieved from /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py
+[2025-01-12 13:55:34,318] {logging_mixin.py:109} INFO - [2025-01-12 13:55:34,318] {dag.py:1834} INFO - Sync 1 DAGs
+[2025-01-12 13:55:34,325] {logging_mixin.py:109} INFO - [2025-01-12 13:55:34,325] {dag.py:2287} INFO - Setting next_dagrun for agile_data_science_batch_prediction_model_training to None
+[2025-01-12 13:55:34,332] {processor.py:170} INFO - Processing /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py took 0.045 seconds
+[2025-01-12 13:56:09,926] {processor.py:162} INFO - Started process (PID=282738) to work on /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py
+[2025-01-12 13:56:09,927] {processor.py:613} INFO - Processing file /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py for tasks to queue
+[2025-01-12 13:56:09,928] {logging_mixin.py:109} INFO - [2025-01-12 13:56:09,928] {dagbag.py:496} INFO - Filling up the DagBag from /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py
+[2025-01-12 13:56:09,966] {processor.py:623} INFO - DAG(s) dict_keys(['agile_data_science_batch_prediction_model_training']) retrieved from /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py
+[2025-01-12 13:56:09,981] {logging_mixin.py:109} INFO - [2025-01-12 13:56:09,981] {dag.py:1834} INFO - Sync 1 DAGs
+[2025-01-12 13:56:09,991] {logging_mixin.py:109} INFO - [2025-01-12 13:56:09,991] {dag.py:2287} INFO - Setting next_dagrun for agile_data_science_batch_prediction_model_training to None
+[2025-01-12 13:56:10,006] {processor.py:170} INFO - Processing /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py took 0.083 seconds
+[2025-01-12 13:56:45,712] {processor.py:162} INFO - Started process (PID=283003) to work on /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py
+[2025-01-12 13:56:45,713] {processor.py:613} INFO - Processing file /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py for tasks to queue
+[2025-01-12 13:56:45,714] {logging_mixin.py:109} INFO - [2025-01-12 13:56:45,714] {dagbag.py:496} INFO - Filling up the DagBag from /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py
+[2025-01-12 13:56:45,785] {processor.py:623} INFO - DAG(s) dict_keys(['agile_data_science_batch_prediction_model_training']) retrieved from /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py
+[2025-01-12 13:56:45,806] {logging_mixin.py:109} INFO - [2025-01-12 13:56:45,806] {dag.py:1834} INFO - Sync 1 DAGs
+[2025-01-12 13:56:45,820] {logging_mixin.py:109} INFO - [2025-01-12 13:56:45,820] {dag.py:2287} INFO - Setting next_dagrun for agile_data_science_batch_prediction_model_training to None
+[2025-01-12 13:56:45,839] {processor.py:170} INFO - Processing /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py took 0.130 seconds
+[2025-01-12 13:57:22,275] {processor.py:162} INFO - Started process (PID=283190) to work on /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py
+[2025-01-12 13:57:22,277] {processor.py:613} INFO - Processing file /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py for tasks to queue
+[2025-01-12 13:57:22,277] {logging_mixin.py:109} INFO - [2025-01-12 13:57:22,277] {dagbag.py:496} INFO - Filling up the DagBag from /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py
+[2025-01-12 13:57:22,298] {processor.py:623} INFO - DAG(s) dict_keys(['agile_data_science_batch_prediction_model_training']) retrieved from /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py
+[2025-01-12 13:57:22,310] {logging_mixin.py:109} INFO - [2025-01-12 13:57:22,310] {dag.py:1834} INFO - Sync 1 DAGs
+[2025-01-12 13:57:22,317] {logging_mixin.py:109} INFO - [2025-01-12 13:57:22,317] {dag.py:2287} INFO - Setting next_dagrun for agile_data_science_batch_prediction_model_training to None
+[2025-01-12 13:57:22,326] {processor.py:170} INFO - Processing /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py took 0.055 seconds
+[2025-01-12 13:57:58,266] {processor.py:162} INFO - Started process (PID=283344) to work on /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py
+[2025-01-12 13:57:58,268] {processor.py:613} INFO - Processing file /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py for tasks to queue
+[2025-01-12 13:57:58,270] {logging_mixin.py:109} INFO - [2025-01-12 13:57:58,269] {dagbag.py:496} INFO - Filling up the DagBag from /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py
+[2025-01-12 13:57:58,320] {processor.py:623} INFO - DAG(s) dict_keys(['agile_data_science_batch_prediction_model_training']) retrieved from /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py
+[2025-01-12 13:57:58,336] {logging_mixin.py:109} INFO - [2025-01-12 13:57:58,336] {dag.py:1834} INFO - Sync 1 DAGs
+[2025-01-12 13:57:58,347] {logging_mixin.py:109} INFO - [2025-01-12 13:57:58,347] {dag.py:2287} INFO - Setting next_dagrun for agile_data_science_batch_prediction_model_training to None
+[2025-01-12 13:57:58,360] {processor.py:170} INFO - Processing /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py took 0.097 seconds
+[2025-01-12 14:05:46,050] {processor.py:162} INFO - Started process (PID=283621) to work on /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py
+[2025-01-12 14:05:46,051] {processor.py:613} INFO - Processing file /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py for tasks to queue
+[2025-01-12 14:05:46,052] {logging_mixin.py:109} INFO - [2025-01-12 14:05:46,052] {dagbag.py:496} INFO - Filling up the DagBag from /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py
+[2025-01-12 14:05:46,061] {processor.py:623} INFO - DAG(s) dict_keys(['agile_data_science_batch_prediction_model_training']) retrieved from /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py
+[2025-01-12 14:05:46,076] {logging_mixin.py:109} INFO - [2025-01-12 14:05:46,076] {dag.py:1834} INFO - Sync 1 DAGs
+[2025-01-12 14:05:46,086] {logging_mixin.py:109} INFO - [2025-01-12 14:05:46,086] {dag.py:2287} INFO - Setting next_dagrun for agile_data_science_batch_prediction_model_training to None
+[2025-01-12 14:05:46,098] {processor.py:170} INFO - Processing /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py took 0.050 seconds
+[2025-01-12 14:06:20,567] {processor.py:162} INFO - Started process (PID=283783) to work on /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py
+[2025-01-12 14:06:20,573] {processor.py:613} INFO - Processing file /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py for tasks to queue
+[2025-01-12 14:06:20,574] {logging_mixin.py:109} INFO - [2025-01-12 14:06:20,573] {dagbag.py:496} INFO - Filling up the DagBag from /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py
+[2025-01-12 14:06:20,582] {processor.py:623} INFO - DAG(s) dict_keys(['agile_data_science_batch_prediction_model_training']) retrieved from /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py
+[2025-01-12 14:06:20,590] {logging_mixin.py:109} INFO - [2025-01-12 14:06:20,590] {dag.py:1834} INFO - Sync 1 DAGs
+[2025-01-12 14:06:20,596] {logging_mixin.py:109} INFO - [2025-01-12 14:06:20,595] {dag.py:2287} INFO - Setting next_dagrun for agile_data_science_batch_prediction_model_training to None
+[2025-01-12 14:06:20,603] {processor.py:170} INFO - Processing /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py took 0.038 seconds
+[2025-01-12 14:06:53,198] {processor.py:162} INFO - Started process (PID=283944) to work on /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py
+[2025-01-12 14:06:53,205] {processor.py:613} INFO - Processing file /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py for tasks to queue
+[2025-01-12 14:06:53,206] {logging_mixin.py:109} INFO - [2025-01-12 14:06:53,205] {dagbag.py:496} INFO - Filling up the DagBag from /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py
+[2025-01-12 14:06:53,217] {processor.py:623} INFO - DAG(s) dict_keys(['agile_data_science_batch_prediction_model_training']) retrieved from /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py
+[2025-01-12 14:06:53,224] {logging_mixin.py:109} INFO - [2025-01-12 14:06:53,224] {dag.py:1834} INFO - Sync 1 DAGs
+[2025-01-12 14:06:53,228] {logging_mixin.py:109} INFO - [2025-01-12 14:06:53,228] {dag.py:2287} INFO - Setting next_dagrun for agile_data_science_batch_prediction_model_training to None
+[2025-01-12 14:06:53,234] {processor.py:170} INFO - Processing /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py took 0.039 seconds
+[2025-01-12 14:07:26,476] {processor.py:162} INFO - Started process (PID=284088) to work on /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py
+[2025-01-12 14:07:26,477] {processor.py:613} INFO - Processing file /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py for tasks to queue
+[2025-01-12 14:07:26,478] {logging_mixin.py:109} INFO - [2025-01-12 14:07:26,478] {dagbag.py:496} INFO - Filling up the DagBag from /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py
+[2025-01-12 14:07:26,488] {processor.py:623} INFO - DAG(s) dict_keys(['agile_data_science_batch_prediction_model_training']) retrieved from /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py
+[2025-01-12 14:07:26,495] {logging_mixin.py:109} INFO - [2025-01-12 14:07:26,495] {dag.py:1834} INFO - Sync 1 DAGs
+[2025-01-12 14:07:26,499] {logging_mixin.py:109} INFO - [2025-01-12 14:07:26,499] {dag.py:2287} INFO - Setting next_dagrun for agile_data_science_batch_prediction_model_training to None
+[2025-01-12 14:07:26,506] {processor.py:170} INFO - Processing /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py took 0.034 seconds
+[2025-01-12 14:07:59,855] {processor.py:162} INFO - Started process (PID=284246) to work on /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py
+[2025-01-12 14:07:59,856] {processor.py:613} INFO - Processing file /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py for tasks to queue
+[2025-01-12 14:07:59,857] {logging_mixin.py:109} INFO - [2025-01-12 14:07:59,857] {dagbag.py:496} INFO - Filling up the DagBag from /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py
+[2025-01-12 14:07:59,868] {processor.py:623} INFO - DAG(s) dict_keys(['agile_data_science_batch_prediction_model_training']) retrieved from /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py
+[2025-01-12 14:07:59,875] {logging_mixin.py:109} INFO - [2025-01-12 14:07:59,875] {dag.py:1834} INFO - Sync 1 DAGs
+[2025-01-12 14:07:59,879] {logging_mixin.py:109} INFO - [2025-01-12 14:07:59,879] {dag.py:2287} INFO - Setting next_dagrun for agile_data_science_batch_prediction_model_training to None
+[2025-01-12 14:07:59,886] {processor.py:170} INFO - Processing /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py took 0.034 seconds
+[2025-01-12 14:08:31,576] {processor.py:162} INFO - Started process (PID=284383) to work on /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py
+[2025-01-12 14:08:31,583] {processor.py:613} INFO - Processing file /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py for tasks to queue
+[2025-01-12 14:08:31,584] {logging_mixin.py:109} INFO - [2025-01-12 14:08:31,583] {dagbag.py:496} INFO - Filling up the DagBag from /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py
+[2025-01-12 14:08:31,596] {processor.py:623} INFO - DAG(s) dict_keys(['agile_data_science_batch_prediction_model_training']) retrieved from /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py
+[2025-01-12 14:08:31,603] {logging_mixin.py:109} INFO - [2025-01-12 14:08:31,603] {dag.py:1834} INFO - Sync 1 DAGs
+[2025-01-12 14:08:31,608] {logging_mixin.py:109} INFO - [2025-01-12 14:08:31,608] {dag.py:2287} INFO - Setting next_dagrun for agile_data_science_batch_prediction_model_training to None
+[2025-01-12 14:08:31,616] {processor.py:170} INFO - Processing /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py took 0.043 seconds
+[2025-01-12 14:09:04,092] {processor.py:162} INFO - Started process (PID=284537) to work on /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py
+[2025-01-12 14:09:04,093] {processor.py:613} INFO - Processing file /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py for tasks to queue
+[2025-01-12 14:09:04,093] {logging_mixin.py:109} INFO - [2025-01-12 14:09:04,093] {dagbag.py:496} INFO - Filling up the DagBag from /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py
+[2025-01-12 14:09:04,101] {processor.py:623} INFO - DAG(s) dict_keys(['agile_data_science_batch_prediction_model_training']) retrieved from /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py
+[2025-01-12 14:09:04,110] {logging_mixin.py:109} INFO - [2025-01-12 14:09:04,110] {dag.py:1834} INFO - Sync 1 DAGs
+[2025-01-12 14:09:04,115] {logging_mixin.py:109} INFO - [2025-01-12 14:09:04,115] {dag.py:2287} INFO - Setting next_dagrun for agile_data_science_batch_prediction_model_training to None
+[2025-01-12 14:09:04,123] {processor.py:170} INFO - Processing /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py took 0.034 seconds
+[2025-01-12 14:09:38,201] {processor.py:162} INFO - Started process (PID=284687) to work on /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py
+[2025-01-12 14:09:38,208] {processor.py:613} INFO - Processing file /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py for tasks to queue
+[2025-01-12 14:09:38,209] {logging_mixin.py:109} INFO - [2025-01-12 14:09:38,209] {dagbag.py:496} INFO - Filling up the DagBag from /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py
+[2025-01-12 14:09:38,222] {processor.py:623} INFO - DAG(s) dict_keys(['agile_data_science_batch_prediction_model_training']) retrieved from /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py
+[2025-01-12 14:09:38,230] {logging_mixin.py:109} INFO - [2025-01-12 14:09:38,230] {dag.py:1834} INFO - Sync 1 DAGs
+[2025-01-12 14:09:38,234] {logging_mixin.py:109} INFO - [2025-01-12 14:09:38,234] {dag.py:2287} INFO - Setting next_dagrun for agile_data_science_batch_prediction_model_training to None
+[2025-01-12 14:09:38,240] {processor.py:170} INFO - Processing /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py took 0.043 seconds
+[2025-01-12 14:10:11,902] {processor.py:162} INFO - Started process (PID=284855) to work on /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py
+[2025-01-12 14:10:11,908] {processor.py:613} INFO - Processing file /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py for tasks to queue
+[2025-01-12 14:10:11,909] {logging_mixin.py:109} INFO - [2025-01-12 14:10:11,909] {dagbag.py:496} INFO - Filling up the DagBag from /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py
+[2025-01-12 14:10:11,919] {processor.py:623} INFO - DAG(s) dict_keys(['agile_data_science_batch_prediction_model_training']) retrieved from /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py
+[2025-01-12 14:10:11,929] {logging_mixin.py:109} INFO - [2025-01-12 14:10:11,929] {dag.py:1834} INFO - Sync 1 DAGs
+[2025-01-12 14:10:11,934] {logging_mixin.py:109} INFO - [2025-01-12 14:10:11,934] {dag.py:2287} INFO - Setting next_dagrun for agile_data_science_batch_prediction_model_training to None
+[2025-01-12 14:10:11,942] {processor.py:170} INFO - Processing /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py took 0.044 seconds
+[2025-01-12 14:10:44,433] {processor.py:162} INFO - Started process (PID=285005) to work on /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py
+[2025-01-12 14:10:44,435] {processor.py:613} INFO - Processing file /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py for tasks to queue
+[2025-01-12 14:10:44,436] {logging_mixin.py:109} INFO - [2025-01-12 14:10:44,436] {dagbag.py:496} INFO - Filling up the DagBag from /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py
+[2025-01-12 14:10:44,450] {processor.py:623} INFO - DAG(s) dict_keys(['agile_data_science_batch_prediction_model_training']) retrieved from /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py
+[2025-01-12 14:10:44,460] {logging_mixin.py:109} INFO - [2025-01-12 14:10:44,460] {dag.py:1834} INFO - Sync 1 DAGs
+[2025-01-12 14:10:44,464] {logging_mixin.py:109} INFO - [2025-01-12 14:10:44,464] {dag.py:2287} INFO - Setting next_dagrun for agile_data_science_batch_prediction_model_training to None
+[2025-01-12 14:10:44,470] {processor.py:170} INFO - Processing /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py took 0.041 seconds
+[2025-01-12 14:11:21,925] {processor.py:162} INFO - Started process (PID=285318) to work on /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py
+[2025-01-12 14:11:21,926] {processor.py:613} INFO - Processing file /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py for tasks to queue
+[2025-01-12 14:11:21,926] {logging_mixin.py:109} INFO - [2025-01-12 14:11:21,926] {dagbag.py:496} INFO - Filling up the DagBag from /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py
+[2025-01-12 14:11:21,934] {processor.py:623} INFO - DAG(s) dict_keys(['agile_data_science_batch_prediction_model_training']) retrieved from /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py
+[2025-01-12 14:11:21,943] {logging_mixin.py:109} INFO - [2025-01-12 14:11:21,943] {dag.py:1834} INFO - Sync 1 DAGs
+[2025-01-12 14:11:21,948] {logging_mixin.py:109} INFO - [2025-01-12 14:11:21,948] {dag.py:2287} INFO - Setting next_dagrun for agile_data_science_batch_prediction_model_training to None
+[2025-01-12 14:11:21,955] {processor.py:170} INFO - Processing /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py took 0.032 seconds
+[2025-01-12 14:11:55,626] {processor.py:162} INFO - Started process (PID=285477) to work on /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py
+[2025-01-12 14:11:55,629] {processor.py:613} INFO - Processing file /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py for tasks to queue
+[2025-01-12 14:11:55,629] {logging_mixin.py:109} INFO - [2025-01-12 14:11:55,629] {dagbag.py:496} INFO - Filling up the DagBag from /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py
+[2025-01-12 14:11:55,640] {processor.py:623} INFO - DAG(s) dict_keys(['agile_data_science_batch_prediction_model_training']) retrieved from /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py
+[2025-01-12 14:11:55,651] {logging_mixin.py:109} INFO - [2025-01-12 14:11:55,651] {dag.py:1834} INFO - Sync 1 DAGs
+[2025-01-12 14:11:55,657] {logging_mixin.py:109} INFO - [2025-01-12 14:11:55,657] {dag.py:2287} INFO - Setting next_dagrun for agile_data_science_batch_prediction_model_training to None
+[2025-01-12 14:11:55,665] {processor.py:170} INFO - Processing /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py took 0.041 seconds
+[2025-01-12 14:12:29,675] {processor.py:162} INFO - Started process (PID=285623) to work on /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py
+[2025-01-12 14:12:29,681] {processor.py:613} INFO - Processing file /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py for tasks to queue
+[2025-01-12 14:12:29,682] {logging_mixin.py:109} INFO - [2025-01-12 14:12:29,682] {dagbag.py:496} INFO - Filling up the DagBag from /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py
+[2025-01-12 14:12:29,689] {processor.py:623} INFO - DAG(s) dict_keys(['agile_data_science_batch_prediction_model_training']) retrieved from /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py
+[2025-01-12 14:12:29,696] {logging_mixin.py:109} INFO - [2025-01-12 14:12:29,696] {dag.py:1834} INFO - Sync 1 DAGs
+[2025-01-12 14:12:29,701] {logging_mixin.py:109} INFO - [2025-01-12 14:12:29,701] {dag.py:2287} INFO - Setting next_dagrun for agile_data_science_batch_prediction_model_training to None
+[2025-01-12 14:12:29,708] {processor.py:170} INFO - Processing /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py took 0.035 seconds
+[2025-01-12 14:13:03,139] {processor.py:162} INFO - Started process (PID=285778) to work on /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py
+[2025-01-12 14:13:03,140] {processor.py:613} INFO - Processing file /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py for tasks to queue
+[2025-01-12 14:13:03,140] {logging_mixin.py:109} INFO - [2025-01-12 14:13:03,140] {dagbag.py:496} INFO - Filling up the DagBag from /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py
+[2025-01-12 14:13:03,146] {processor.py:623} INFO - DAG(s) dict_keys(['agile_data_science_batch_prediction_model_training']) retrieved from /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py
+[2025-01-12 14:13:03,153] {logging_mixin.py:109} INFO - [2025-01-12 14:13:03,153] {dag.py:1834} INFO - Sync 1 DAGs
+[2025-01-12 14:13:03,158] {logging_mixin.py:109} INFO - [2025-01-12 14:13:03,158] {dag.py:2287} INFO - Setting next_dagrun for agile_data_science_batch_prediction_model_training to None
+[2025-01-12 14:13:03,164] {processor.py:170} INFO - Processing /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py took 0.027 seconds
+[2025-01-12 14:13:35,959] {processor.py:162} INFO - Started process (PID=285924) to work on /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py
+[2025-01-12 14:13:35,961] {processor.py:613} INFO - Processing file /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py for tasks to queue
+[2025-01-12 14:13:35,962] {logging_mixin.py:109} INFO - [2025-01-12 14:13:35,962] {dagbag.py:496} INFO - Filling up the DagBag from /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py
+[2025-01-12 14:13:35,972] {processor.py:623} INFO - DAG(s) dict_keys(['agile_data_science_batch_prediction_model_training']) retrieved from /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py
+[2025-01-12 14:13:35,981] {logging_mixin.py:109} INFO - [2025-01-12 14:13:35,981] {dag.py:1834} INFO - Sync 1 DAGs
+[2025-01-12 14:13:35,987] {logging_mixin.py:109} INFO - [2025-01-12 14:13:35,987] {dag.py:2287} INFO - Setting next_dagrun for agile_data_science_batch_prediction_model_training to None
+[2025-01-12 14:13:35,994] {processor.py:170} INFO - Processing /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py took 0.038 seconds
+[2025-01-12 14:14:06,940] {processor.py:162} INFO - Started process (PID=286084) to work on /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py
+[2025-01-12 14:14:06,941] {processor.py:613} INFO - Processing file /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py for tasks to queue
+[2025-01-12 14:14:06,941] {logging_mixin.py:109} INFO - [2025-01-12 14:14:06,941] {dagbag.py:496} INFO - Filling up the DagBag from /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py
+[2025-01-12 14:14:06,950] {processor.py:623} INFO - DAG(s) dict_keys(['agile_data_science_batch_prediction_model_training']) retrieved from /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py
+[2025-01-12 14:14:06,959] {logging_mixin.py:109} INFO - [2025-01-12 14:14:06,959] {dag.py:1834} INFO - Sync 1 DAGs
+[2025-01-12 14:14:06,966] {logging_mixin.py:109} INFO - [2025-01-12 14:14:06,966] {dag.py:2287} INFO - Setting next_dagrun for agile_data_science_batch_prediction_model_training to None
+[2025-01-12 14:14:06,976] {processor.py:170} INFO - Processing /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py took 0.039 seconds
+[2025-01-12 14:14:41,403] {processor.py:162} INFO - Started process (PID=286240) to work on /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py
+[2025-01-12 14:14:41,403] {processor.py:613} INFO - Processing file /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py for tasks to queue
+[2025-01-12 14:14:41,404] {logging_mixin.py:109} INFO - [2025-01-12 14:14:41,404] {dagbag.py:496} INFO - Filling up the DagBag from /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py
+[2025-01-12 14:14:41,410] {processor.py:623} INFO - DAG(s) dict_keys(['agile_data_science_batch_prediction_model_training']) retrieved from /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py
+[2025-01-12 14:14:41,419] {logging_mixin.py:109} INFO - [2025-01-12 14:14:41,418] {dag.py:1834} INFO - Sync 1 DAGs
+[2025-01-12 14:14:41,423] {logging_mixin.py:109} INFO - [2025-01-12 14:14:41,423] {dag.py:2287} INFO - Setting next_dagrun for agile_data_science_batch_prediction_model_training to None
+[2025-01-12 14:14:41,429] {processor.py:170} INFO - Processing /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py took 0.029 seconds
+[2025-01-12 14:15:14,015] {processor.py:162} INFO - Started process (PID=286593) to work on /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py
+[2025-01-12 14:15:14,021] {processor.py:613} INFO - Processing file /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py for tasks to queue
+[2025-01-12 14:15:14,022] {logging_mixin.py:109} INFO - [2025-01-12 14:15:14,022] {dagbag.py:496} INFO - Filling up the DagBag from /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py
+[2025-01-12 14:15:14,033] {processor.py:623} INFO - DAG(s) dict_keys(['agile_data_science_batch_prediction_model_training']) retrieved from /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py
+[2025-01-12 14:15:14,041] {logging_mixin.py:109} INFO - [2025-01-12 14:15:14,041] {dag.py:1834} INFO - Sync 1 DAGs
+[2025-01-12 14:15:14,045] {logging_mixin.py:109} INFO - [2025-01-12 14:15:14,045] {dag.py:2287} INFO - Setting next_dagrun for agile_data_science_batch_prediction_model_training to None
+[2025-01-12 14:15:14,052] {processor.py:170} INFO - Processing /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py took 0.040 seconds
+[2025-01-12 14:15:46,325] {processor.py:162} INFO - Started process (PID=287039) to work on /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py
+[2025-01-12 14:15:46,329] {processor.py:613} INFO - Processing file /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py for tasks to queue
+[2025-01-12 14:15:46,329] {logging_mixin.py:109} INFO - [2025-01-12 14:15:46,329] {dagbag.py:496} INFO - Filling up the DagBag from /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py
+[2025-01-12 14:15:46,335] {processor.py:623} INFO - DAG(s) dict_keys(['agile_data_science_batch_prediction_model_training']) retrieved from /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py
+[2025-01-12 14:15:46,343] {logging_mixin.py:109} INFO - [2025-01-12 14:15:46,343] {dag.py:1834} INFO - Sync 1 DAGs
+[2025-01-12 14:15:46,349] {logging_mixin.py:109} INFO - [2025-01-12 14:15:46,349] {dag.py:2287} INFO - Setting next_dagrun for agile_data_science_batch_prediction_model_training to None
+[2025-01-12 14:15:46,376] {processor.py:170} INFO - Processing /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py took 0.053 seconds
+[2025-01-12 14:16:32,607] {processor.py:162} INFO - Started process (PID=290067) to work on /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py
+[2025-01-12 14:16:32,609] {processor.py:613} INFO - Processing file /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py for tasks to queue
+[2025-01-12 14:16:32,610] {logging_mixin.py:109} INFO - [2025-01-12 14:16:32,610] {dagbag.py:496} INFO - Filling up the DagBag from /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py
+[2025-01-12 14:16:32,621] {processor.py:623} INFO - DAG(s) dict_keys(['agile_data_science_batch_prediction_model_training']) retrieved from /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py
+[2025-01-12 14:16:32,636] {logging_mixin.py:109} INFO - [2025-01-12 14:16:32,636] {dag.py:1834} INFO - Sync 1 DAGs
+[2025-01-12 14:16:32,645] {logging_mixin.py:109} INFO - [2025-01-12 14:16:32,645] {dag.py:2287} INFO - Setting next_dagrun for agile_data_science_batch_prediction_model_training to None
+[2025-01-12 14:16:32,658] {processor.py:170} INFO - Processing /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py took 0.053 seconds
+[2025-01-12 14:17:08,517] {processor.py:162} INFO - Started process (PID=290862) to work on /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py
+[2025-01-12 14:17:08,518] {processor.py:613} INFO - Processing file /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py for tasks to queue
+[2025-01-12 14:17:08,519] {logging_mixin.py:109} INFO - [2025-01-12 14:17:08,519] {dagbag.py:496} INFO - Filling up the DagBag from /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py
+[2025-01-12 14:17:08,534] {processor.py:623} INFO - DAG(s) dict_keys(['agile_data_science_batch_prediction_model_training']) retrieved from /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py
+[2025-01-12 14:17:08,549] {logging_mixin.py:109} INFO - [2025-01-12 14:17:08,549] {dag.py:1834} INFO - Sync 1 DAGs
+[2025-01-12 14:17:08,559] {logging_mixin.py:109} INFO - [2025-01-12 14:17:08,559] {dag.py:2287} INFO - Setting next_dagrun for agile_data_science_batch_prediction_model_training to None
+[2025-01-12 14:17:08,569] {processor.py:170} INFO - Processing /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py took 0.055 seconds
+[2025-01-12 14:17:42,330] {processor.py:162} INFO - Started process (PID=291040) to work on /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py
+[2025-01-12 14:17:42,332] {processor.py:613} INFO - Processing file /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py for tasks to queue
+[2025-01-12 14:17:42,333] {logging_mixin.py:109} INFO - [2025-01-12 14:17:42,332] {dagbag.py:496} INFO - Filling up the DagBag from /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py
+[2025-01-12 14:17:42,347] {processor.py:623} INFO - DAG(s) dict_keys(['agile_data_science_batch_prediction_model_training']) retrieved from /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py
+[2025-01-12 14:17:42,358] {logging_mixin.py:109} INFO - [2025-01-12 14:17:42,358] {dag.py:1834} INFO - Sync 1 DAGs
+[2025-01-12 14:17:42,364] {logging_mixin.py:109} INFO - [2025-01-12 14:17:42,364] {dag.py:2287} INFO - Setting next_dagrun for agile_data_science_batch_prediction_model_training to None
+[2025-01-12 14:17:42,372] {processor.py:170} INFO - Processing /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py took 0.045 seconds
+[2025-01-12 14:18:15,865] {processor.py:162} INFO - Started process (PID=291204) to work on /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py
+[2025-01-12 14:18:15,866] {processor.py:613} INFO - Processing file /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py for tasks to queue
+[2025-01-12 14:18:15,867] {logging_mixin.py:109} INFO - [2025-01-12 14:18:15,866] {dagbag.py:496} INFO - Filling up the DagBag from /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py
+[2025-01-12 14:18:15,875] {processor.py:623} INFO - DAG(s) dict_keys(['agile_data_science_batch_prediction_model_training']) retrieved from /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py
+[2025-01-12 14:18:15,883] {logging_mixin.py:109} INFO - [2025-01-12 14:18:15,883] {dag.py:1834} INFO - Sync 1 DAGs
+[2025-01-12 14:18:15,889] {logging_mixin.py:109} INFO - [2025-01-12 14:18:15,889] {dag.py:2287} INFO - Setting next_dagrun for agile_data_science_batch_prediction_model_training to None
+[2025-01-12 14:18:15,896] {processor.py:170} INFO - Processing /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py took 0.032 seconds
+[2025-01-12 14:18:48,406] {processor.py:162} INFO - Started process (PID=291756) to work on /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py
+[2025-01-12 14:18:48,408] {processor.py:613} INFO - Processing file /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py for tasks to queue
+[2025-01-12 14:18:48,409] {logging_mixin.py:109} INFO - [2025-01-12 14:18:48,409] {dagbag.py:496} INFO - Filling up the DagBag from /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py
+[2025-01-12 14:18:48,420] {processor.py:623} INFO - DAG(s) dict_keys(['agile_data_science_batch_prediction_model_training']) retrieved from /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py
+[2025-01-12 14:18:48,429] {logging_mixin.py:109} INFO - [2025-01-12 14:18:48,429] {dag.py:1834} INFO - Sync 1 DAGs
+[2025-01-12 14:18:48,435] {logging_mixin.py:109} INFO - [2025-01-12 14:18:48,435] {dag.py:2287} INFO - Setting next_dagrun for agile_data_science_batch_prediction_model_training to None
+[2025-01-12 14:18:48,441] {processor.py:170} INFO - Processing /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py took 0.039 seconds
+[2025-01-12 14:19:22,496] {processor.py:162} INFO - Started process (PID=292303) to work on /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py
+[2025-01-12 14:19:22,498] {processor.py:613} INFO - Processing file /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py for tasks to queue
+[2025-01-12 14:19:22,499] {logging_mixin.py:109} INFO - [2025-01-12 14:19:22,499] {dagbag.py:496} INFO - Filling up the DagBag from /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py
+[2025-01-12 14:19:22,514] {processor.py:623} INFO - DAG(s) dict_keys(['agile_data_science_batch_prediction_model_training']) retrieved from /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py
+[2025-01-12 14:19:22,527] {logging_mixin.py:109} INFO - [2025-01-12 14:19:22,527] {dag.py:1834} INFO - Sync 1 DAGs
+[2025-01-12 14:19:22,539] {logging_mixin.py:109} INFO - [2025-01-12 14:19:22,538] {dag.py:2287} INFO - Setting next_dagrun for agile_data_science_batch_prediction_model_training to None
+[2025-01-12 14:19:22,550] {processor.py:170} INFO - Processing /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py took 0.056 seconds
+[2025-01-12 14:19:57,478] {processor.py:162} INFO - Started process (PID=293079) to work on /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py
+[2025-01-12 14:19:57,479] {processor.py:613} INFO - Processing file /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py for tasks to queue
+[2025-01-12 14:19:57,479] {logging_mixin.py:109} INFO - [2025-01-12 14:19:57,479] {dagbag.py:496} INFO - Filling up the DagBag from /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py
+[2025-01-12 14:19:57,492] {processor.py:623} INFO - DAG(s) dict_keys(['agile_data_science_batch_prediction_model_training']) retrieved from /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py
+[2025-01-12 14:19:57,501] {logging_mixin.py:109} INFO - [2025-01-12 14:19:57,501] {dag.py:1834} INFO - Sync 1 DAGs
+[2025-01-12 14:19:57,508] {logging_mixin.py:109} INFO - [2025-01-12 14:19:57,508] {dag.py:2287} INFO - Setting next_dagrun for agile_data_science_batch_prediction_model_training to None
+[2025-01-12 14:19:57,515] {processor.py:170} INFO - Processing /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py took 0.039 seconds
+[2025-01-12 14:20:32,339] {processor.py:162} INFO - Started process (PID=293245) to work on /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py
+[2025-01-12 14:20:32,341] {processor.py:613} INFO - Processing file /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py for tasks to queue
+[2025-01-12 14:20:32,341] {logging_mixin.py:109} INFO - [2025-01-12 14:20:32,341] {dagbag.py:496} INFO - Filling up the DagBag from /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py
+[2025-01-12 14:20:32,354] {processor.py:623} INFO - DAG(s) dict_keys(['agile_data_science_batch_prediction_model_training']) retrieved from /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py
+[2025-01-12 14:20:32,368] {logging_mixin.py:109} INFO - [2025-01-12 14:20:32,368] {dag.py:1834} INFO - Sync 1 DAGs
+[2025-01-12 14:20:32,384] {logging_mixin.py:109} INFO - [2025-01-12 14:20:32,383] {dag.py:2287} INFO - Setting next_dagrun for agile_data_science_batch_prediction_model_training to None
+[2025-01-12 14:20:32,411] {processor.py:170} INFO - Processing /home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py took 0.075 seconds

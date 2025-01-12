@@ -1,0 +1,57 @@
+2025-01-12 13:50:54,536 INFO - Starting the scheduler
+2025-01-12 13:50:54,536 INFO - Processing each file at most -1 times
+2025-01-12 13:50:54,541 INFO - Launched DagFileProcessorManager with pid: 280964
+2025-01-12 13:50:54,542 INFO - Resetting orphaned tasks for active dag runs
+2025-01-12 13:50:54,546 INFO - Configured default timezone Timezone('UTC')
+2025-01-12 13:52:55,148 INFO - 1 tasks up for execution:
+	<TaskInstance: agile_data_science_batch_prediction_model_training.pyspark_train_classifier_model 2025-01-12 12:51:51+00:00 [scheduled]>
+2025-01-12 13:52:55,151 INFO - Figuring out tasks to run in Pool(name=default_pool) with 128 open slots and 1 task instances ready to be queued
+2025-01-12 13:52:55,152 INFO - DAG agile_data_science_batch_prediction_model_training has 0/16 running and queued tasks
+2025-01-12 13:52:55,152 INFO - Setting the following tasks to queued state:
+	<TaskInstance: agile_data_science_batch_prediction_model_training.pyspark_train_classifier_model 2025-01-12 12:51:51+00:00 [scheduled]>
+2025-01-12 13:52:55,155 INFO - Sending TaskInstanceKey(dag_id='agile_data_science_batch_prediction_model_training', task_id='pyspark_train_classifier_model', execution_date=datetime.datetime(2025, 1, 12, 12, 51, 51, tzinfo=Timezone('UTC')), try_number=1) to executor with priority 1 and queue default
+2025-01-12 13:52:55,156 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'agile_data_science_batch_prediction_model_training', 'pyspark_train_classifier_model', '2025-01-12T12:51:51+00:00', '--local', '--pool', 'default_pool', '--subdir', '/home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py']
+2025-01-12 13:52:55,160 INFO - Executing command: ['airflow', 'tasks', 'run', 'agile_data_science_batch_prediction_model_training', 'pyspark_train_classifier_model', '2025-01-12T12:51:51+00:00', '--local', '--pool', 'default_pool', '--subdir', '/home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py']
+2025-01-12 13:53:03,646 INFO - Executor reports execution of agile_data_science_batch_prediction_model_training.pyspark_train_classifier_model execution_date=2025-01-12 12:51:51+00:00 exited with status success for try_number 1
+2025-01-12 13:55:54,718 INFO - Resetting orphaned tasks for active dag runs
+2025-01-12 13:58:04,384 INFO - 1 tasks up for execution:
+	<TaskInstance: agile_data_science_batch_prediction_model_training.pyspark_train_classifier_model 2025-01-12 12:51:51+00:00 [scheduled]>
+2025-01-12 13:58:04,386 INFO - Figuring out tasks to run in Pool(name=default_pool) with 128 open slots and 1 task instances ready to be queued
+2025-01-12 13:58:04,387 INFO - DAG agile_data_science_batch_prediction_model_training has 0/16 running and queued tasks
+2025-01-12 13:58:04,387 INFO - Setting the following tasks to queued state:
+	<TaskInstance: agile_data_science_batch_prediction_model_training.pyspark_train_classifier_model 2025-01-12 12:51:51+00:00 [scheduled]>
+2025-01-12 13:58:04,390 INFO - Sending TaskInstanceKey(dag_id='agile_data_science_batch_prediction_model_training', task_id='pyspark_train_classifier_model', execution_date=datetime.datetime(2025, 1, 12, 12, 51, 51, tzinfo=Timezone('UTC')), try_number=2) to executor with priority 1 and queue default
+2025-01-12 13:58:04,391 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'agile_data_science_batch_prediction_model_training', 'pyspark_train_classifier_model', '2025-01-12T12:51:51+00:00', '--local', '--pool', 'default_pool', '--subdir', '/home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py']
+2025-01-12 13:58:04,398 INFO - Executing command: ['airflow', 'tasks', 'run', 'agile_data_science_batch_prediction_model_training', 'pyspark_train_classifier_model', '2025-01-12T12:51:51+00:00', '--local', '--pool', 'default_pool', '--subdir', '/home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py']
+2025-01-12 14:05:45,822 INFO - Executor reports execution of agile_data_science_batch_prediction_model_training.pyspark_train_classifier_model execution_date=2025-01-12 12:51:51+00:00 exited with status success for try_number 2
+2025-01-12 14:05:45,839 ERROR - DagFileProcessorManager (PID=280964) last sent a heartbeat 461.51 seconds ago! Restarting it
+2025-01-12 14:05:45,846 INFO - Sending Signals.SIGTERM to GPID 280964
+2025-01-12 14:05:45,979 INFO - Process psutil.Process(pid=280964, status='terminated', exitcode=0, started='13:50:53') (280964) terminated with exit code 0
+2025-01-12 14:05:45,983 INFO - Launched DagFileProcessorManager with pid: 283615
+2025-01-12 14:05:45,987 INFO - Configured default timezone Timezone('UTC')
+2025-01-12 14:05:46,009 INFO - Resetting orphaned tasks for active dag runs
+2025-01-12 14:05:46,011 INFO - Marked 1 SchedulerJob instances as failed
+2025-01-12 14:10:45,712 INFO - 1 tasks up for execution:
+	<TaskInstance: agile_data_science_batch_prediction_model_training.pyspark_train_classifier_model 2025-01-12 12:51:51+00:00 [scheduled]>
+2025-01-12 14:10:45,713 INFO - Figuring out tasks to run in Pool(name=default_pool) with 128 open slots and 1 task instances ready to be queued
+2025-01-12 14:10:45,713 INFO - DAG agile_data_science_batch_prediction_model_training has 0/16 running and queued tasks
+2025-01-12 14:10:45,713 INFO - Setting the following tasks to queued state:
+	<TaskInstance: agile_data_science_batch_prediction_model_training.pyspark_train_classifier_model 2025-01-12 12:51:51+00:00 [scheduled]>
+2025-01-12 14:10:45,714 INFO - Sending TaskInstanceKey(dag_id='agile_data_science_batch_prediction_model_training', task_id='pyspark_train_classifier_model', execution_date=datetime.datetime(2025, 1, 12, 12, 51, 51, tzinfo=Timezone('UTC')), try_number=3) to executor with priority 1 and queue default
+2025-01-12 14:10:45,715 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'agile_data_science_batch_prediction_model_training', 'pyspark_train_classifier_model', '2025-01-12T12:51:51+00:00', '--local', '--pool', 'default_pool', '--subdir', '/home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py']
+2025-01-12 14:10:45,718 INFO - Executing command: ['airflow', 'tasks', 'run', 'agile_data_science_batch_prediction_model_training', 'pyspark_train_classifier_model', '2025-01-12T12:51:51+00:00', '--local', '--pool', 'default_pool', '--subdir', '/home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py']
+2025-01-12 14:10:49,684 INFO - Executor reports execution of agile_data_science_batch_prediction_model_training.pyspark_train_classifier_model execution_date=2025-01-12 12:51:51+00:00 exited with status success for try_number 3
+2025-01-12 14:10:49,708 INFO - Resetting orphaned tasks for active dag runs
+2025-01-12 14:15:50,406 INFO - 1 tasks up for execution:
+	<TaskInstance: agile_data_science_batch_prediction_model_training.pyspark_train_classifier_model 2025-01-12 12:51:51+00:00 [scheduled]>
+2025-01-12 14:15:50,411 INFO - Figuring out tasks to run in Pool(name=default_pool) with 128 open slots and 1 task instances ready to be queued
+2025-01-12 14:15:50,412 INFO - DAG agile_data_science_batch_prediction_model_training has 0/16 running and queued tasks
+2025-01-12 14:15:50,413 INFO - Setting the following tasks to queued state:
+	<TaskInstance: agile_data_science_batch_prediction_model_training.pyspark_train_classifier_model 2025-01-12 12:51:51+00:00 [scheduled]>
+2025-01-12 14:15:50,417 INFO - Sending TaskInstanceKey(dag_id='agile_data_science_batch_prediction_model_training', task_id='pyspark_train_classifier_model', execution_date=datetime.datetime(2025, 1, 12, 12, 51, 51, tzinfo=Timezone('UTC')), try_number=4) to executor with priority 1 and queue default
+2025-01-12 14:15:50,418 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'agile_data_science_batch_prediction_model_training', 'pyspark_train_classifier_model', '2025-01-12T12:51:51+00:00', '--local', '--pool', 'default_pool', '--subdir', '/home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py']
+2025-01-12 14:15:50,433 INFO - Executing command: ['airflow', 'tasks', 'run', 'agile_data_science_batch_prediction_model_training', 'pyspark_train_classifier_model', '2025-01-12T12:51:51+00:00', '--local', '--pool', 'default_pool', '--subdir', '/home/jorge/Desktop/MÁSTER/SEGUNDO CURSO/BDFI/practica_docker/resources/airflow/dags/train_model_dag.py']
+2025-01-12 14:16:01,788 INFO - Executor reports execution of agile_data_science_batch_prediction_model_training.pyspark_train_classifier_model execution_date=2025-01-12 12:51:51+00:00 exited with status success for try_number 4
+2025-01-12 14:16:01,842 INFO - Resetting orphaned tasks for active dag runs
+2025-01-12 14:16:02,465 ERROR - Marking run <DagRun agile_data_science_batch_prediction_model_training @ 2025-01-12 12:51:51+00:00: manual__2025-01-12T12:51:51+00:00, externally triggered: True> failed
+2025-01-12 14:16:02,465 WARNING - Failed to record duration of <DagRun agile_data_science_batch_prediction_model_training @ 2025-01-12 12:51:51+00:00: manual__2025-01-12T12:51:51+00:00, externally triggered: True>: start_date is not set.

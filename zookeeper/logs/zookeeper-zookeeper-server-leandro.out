@@ -1,0 +1,101 @@
+2024-12-11 00:31:22,130 [myid:] - INFO  [main:o.a.z.s.q.QuorumPeerConfig@177] - Reading configuration from: /opt/zookeeper/conf/zoo.cfg
+2024-12-11 00:31:22,133 [myid:] - INFO  [main:o.a.z.s.q.QuorumPeerConfig@440] - clientPortAddress is 0.0.0.0:2181
+2024-12-11 00:31:22,134 [myid:] - INFO  [main:o.a.z.s.q.QuorumPeerConfig@444] - secureClientPort is not set
+2024-12-11 00:31:22,134 [myid:] - INFO  [main:o.a.z.s.q.QuorumPeerConfig@460] - observerMasterPort is not set
+2024-12-11 00:31:22,134 [myid:] - INFO  [main:o.a.z.s.q.QuorumPeerConfig@477] - metricsProvider.className is org.apache.zookeeper.metrics.impl.DefaultMetricsProvider
+2024-12-11 00:31:22,135 [myid:] - INFO  [main:o.a.z.s.DatadirCleanupManager@78] - autopurge.snapRetainCount set to 3
+2024-12-11 00:31:22,135 [myid:] - INFO  [main:o.a.z.s.DatadirCleanupManager@79] - autopurge.purgeInterval set to 0
+2024-12-11 00:31:22,135 [myid:] - INFO  [main:o.a.z.s.DatadirCleanupManager@101] - Purge task is not scheduled.
+2024-12-11 00:31:22,135 [myid:] - WARN  [main:o.a.z.s.q.QuorumPeerMain@139] - Either no config or no quorum defined in config, running in standalone mode
+2024-12-11 00:31:22,137 [myid:] - INFO  [main:o.a.z.j.ManagedUtil@46] - Log4j 1.2 jmx support not found; jmx disabled.
+2024-12-11 00:31:22,137 [myid:] - INFO  [main:o.a.z.s.q.QuorumPeerConfig@177] - Reading configuration from: /opt/zookeeper/conf/zoo.cfg
+2024-12-11 00:31:22,137 [myid:] - INFO  [main:o.a.z.s.q.QuorumPeerConfig@440] - clientPortAddress is 0.0.0.0:2181
+2024-12-11 00:31:22,137 [myid:] - INFO  [main:o.a.z.s.q.QuorumPeerConfig@444] - secureClientPort is not set
+2024-12-11 00:31:22,137 [myid:] - INFO  [main:o.a.z.s.q.QuorumPeerConfig@460] - observerMasterPort is not set
+2024-12-11 00:31:22,137 [myid:] - INFO  [main:o.a.z.s.q.QuorumPeerConfig@477] - metricsProvider.className is org.apache.zookeeper.metrics.impl.DefaultMetricsProvider
+2024-12-11 00:31:22,137 [myid:] - INFO  [main:o.a.z.s.ZooKeeperServerMain@123] - Starting server
+2024-12-11 00:31:22,145 [myid:] - INFO  [main:o.a.z.s.ServerMetrics@64] - ServerMetrics initialized with provider org.apache.zookeeper.metrics.impl.DefaultMetricsProvider@16d04d3d
+2024-12-11 00:31:22,147 [myid:] - INFO  [main:o.a.z.s.a.DigestAuthenticationProvider@47] - ACL digest algorithm is: SHA1
+2024-12-11 00:31:22,148 [myid:] - INFO  [main:o.a.z.s.a.DigestAuthenticationProvider@61] - zookeeper.DigestAuthenticationProvider.enabled = true
+2024-12-11 00:31:22,150 [myid:] - INFO  [main:o.a.z.s.p.FileTxnSnapLog@124] - zookeeper.snapshot.trust.empty : false
+2024-12-11 00:31:22,157 [myid:] - INFO  [main:o.a.z.ZookeeperBanner@42] - 
+2024-12-11 00:31:22,157 [myid:] - INFO  [main:o.a.z.ZookeeperBanner@42] -   ______                  _                                          
+2024-12-11 00:31:22,157 [myid:] - INFO  [main:o.a.z.ZookeeperBanner@42] -  |___  /                 | |                                         
+2024-12-11 00:31:22,157 [myid:] - INFO  [main:o.a.z.ZookeeperBanner@42] -     / /    ___     ___   | | __   ___    ___   _ __     ___   _ __   
+2024-12-11 00:31:22,157 [myid:] - INFO  [main:o.a.z.ZookeeperBanner@42] -    / /    / _ \   / _ \  | |/ /  / _ \  / _ \ | '_ \   / _ \ | '__|
+2024-12-11 00:31:22,157 [myid:] - INFO  [main:o.a.z.ZookeeperBanner@42] -   / /__  | (_) | | (_) | |   <  |  __/ |  __/ | |_) | |  __/ | |    
+2024-12-11 00:31:22,157 [myid:] - INFO  [main:o.a.z.ZookeeperBanner@42] -  /_____|  \___/   \___/  |_|\_\  \___|  \___| | .__/   \___| |_|
+2024-12-11 00:31:22,157 [myid:] - INFO  [main:o.a.z.ZookeeperBanner@42] -                                               | |                     
+2024-12-11 00:31:22,157 [myid:] - INFO  [main:o.a.z.ZookeeperBanner@42] -                                               |_|                     
+2024-12-11 00:31:22,157 [myid:] - INFO  [main:o.a.z.ZookeeperBanner@42] - 
+2024-12-11 00:31:22,158 [myid:] - INFO  [main:o.a.z.Environment@98] - Server environment:zookeeper.version=3.8.4-9316c2a7a97e1666d8f4593f34dd6fc36ecc436c, built on 2024-02-12 22:16 UTC
+2024-12-11 00:31:22,159 [myid:] - INFO  [main:o.a.z.Environment@98] - Server environment:host.name=leandro
+2024-12-11 00:31:22,159 [myid:] - INFO  [main:o.a.z.Environment@98] - Server environment:java.version=17.0.13
+2024-12-11 00:31:22,159 [myid:] - INFO  [main:o.a.z.Environment@98] - Server environment:java.vendor=Ubuntu
+2024-12-11 00:31:22,159 [myid:] - INFO  [main:o.a.z.Environment@98] - Server environment:java.home=/usr/lib/jvm/java-17-openjdk-amd64
+2024-12-11 00:31:22,159 [myid:] - INFO  [main:o.a.z.Environment@98] - Server environment:java.class.path=/opt/zookeeper/bin/../zookeeper-server/target/classes:/opt/zookeeper/bin/../build/classes:/opt/zookeeper/bin/../zookeeper-server/target/lib/*.jar:/opt/zookeeper/bin/../build/lib/*.jar:/opt/zookeeper/bin/../lib/zookeeper-prometheus-metrics-3.8.4.jar:/opt/zookeeper/bin/../lib/zookeeper-jute-3.8.4.jar:/opt/zookeeper/bin/../lib/zookeeper-3.8.4.jar:/opt/zookeeper/bin/../lib/snappy-java-1.1.10.5.jar:/opt/zookeeper/bin/../lib/slf4j-api-1.7.30.jar:/opt/zookeeper/bin/../lib/simpleclient_servlet-0.9.0.jar:/opt/zookeeper/bin/../lib/simpleclient_hotspot-0.9.0.jar:/opt/zookeeper/bin/../lib/simpleclient_common-0.9.0.jar:/opt/zookeeper/bin/../lib/simpleclient-0.9.0.jar:/opt/zookeeper/bin/../lib/netty-transport-native-unix-common-4.1.105.Final.jar:/opt/zookeeper/bin/../lib/netty-transport-native-epoll-4.1.105.Final.jar:/opt/zookeeper/bin/../lib/netty-transport-classes-epoll-4.1.105.Final.jar:/opt/zookeeper/bin/../lib/netty-transport-4.1.105.Final.jar:/opt/zookeeper/bin/../lib/netty-resolver-4.1.105.Final.jar:/opt/zookeeper/bin/../lib/netty-handler-4.1.105.Final.jar:/opt/zookeeper/bin/../lib/netty-common-4.1.105.Final.jar:/opt/zookeeper/bin/../lib/netty-codec-4.1.105.Final.jar:/opt/zookeeper/bin/../lib/netty-buffer-4.1.105.Final.jar:/opt/zookeeper/bin/../lib/metrics-core-4.1.12.1.jar:/opt/zookeeper/bin/../lib/logback-core-1.2.13.jar:/opt/zookeeper/bin/../lib/logback-classic-1.2.13.jar:/opt/zookeeper/bin/../lib/jline-2.14.6.jar:/opt/zookeeper/bin/../lib/jetty-util-ajax-9.4.53.v20231009.jar:/opt/zookeeper/bin/../lib/jetty-util-9.4.53.v20231009.jar:/opt/zookeeper/bin/../lib/jetty-servlet-9.4.53.v20231009.jar:/opt/zookeeper/bin/../lib/jetty-server-9.4.53.v20231009.jar:/opt/zookeeper/bin/../lib/jetty-security-9.4.53.v20231009.jar:/opt/zookeeper/bin/../lib/jetty-io-9.4.53.v20231009.jar:/opt/zookeeper/bin/../lib/jetty-http-9.4.53.v20231009.jar:/opt/zookeeper/bin/../lib/javax.servlet-api-3.1.0.jar:/opt/zookeeper/bin/../lib/jackson-databind-2.15.2.jar:/opt/zookeeper/bin/../lib/jackson-core-2.15.2.jar:/opt/zookeeper/bin/../lib/jackson-annotations-2.15.2.jar:/opt/zookeeper/bin/../lib/commons-io-2.11.0.jar:/opt/zookeeper/bin/../lib/commons-cli-1.5.0.jar:/opt/zookeeper/bin/../lib/audience-annotations-0.12.0.jar:/opt/zookeeper/bin/../zookeeper-*.jar:/opt/zookeeper/bin/../zookeeper-server/src/main/resources/lib/*.jar:/opt/zookeeper/bin/../conf:
+2024-12-11 00:31:22,159 [myid:] - INFO  [main:o.a.z.Environment@98] - Server environment:java.library.path=/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+2024-12-11 00:31:22,159 [myid:] - INFO  [main:o.a.z.Environment@98] - Server environment:java.io.tmpdir=/tmp
+2024-12-11 00:31:22,159 [myid:] - INFO  [main:o.a.z.Environment@98] - Server environment:java.compiler=<NA>
+2024-12-11 00:31:22,159 [myid:] - INFO  [main:o.a.z.Environment@98] - Server environment:os.name=Linux
+2024-12-11 00:31:22,159 [myid:] - INFO  [main:o.a.z.Environment@98] - Server environment:os.arch=amd64
+2024-12-11 00:31:22,159 [myid:] - INFO  [main:o.a.z.Environment@98] - Server environment:os.version=6.8.0-49-generic
+2024-12-11 00:31:22,159 [myid:] - INFO  [main:o.a.z.Environment@98] - Server environment:user.name=zookeeper
+2024-12-11 00:31:22,159 [myid:] - INFO  [main:o.a.z.Environment@98] - Server environment:user.home=/home/zookeeper
+2024-12-11 00:31:22,159 [myid:] - INFO  [main:o.a.z.Environment@98] - Server environment:user.dir=/opt/zookeeper
+2024-12-11 00:31:22,159 [myid:] - INFO  [main:o.a.z.Environment@98] - Server environment:os.memory.free=234MB
+2024-12-11 00:31:22,159 [myid:] - INFO  [main:o.a.z.Environment@98] - Server environment:os.memory.max=1000MB
+2024-12-11 00:31:22,159 [myid:] - INFO  [main:o.a.z.Environment@98] - Server environment:os.memory.total=250MB
+2024-12-11 00:31:22,159 [myid:] - INFO  [main:o.a.z.s.ZooKeeperServer@140] - zookeeper.enableEagerACLCheck = false
+2024-12-11 00:31:22,159 [myid:] - INFO  [main:o.a.z.s.ZooKeeperServer@153] - zookeeper.digest.enabled = true
+2024-12-11 00:31:22,159 [myid:] - INFO  [main:o.a.z.s.ZooKeeperServer@157] - zookeeper.closeSessionTxn.enabled = true
+2024-12-11 00:31:22,159 [myid:] - INFO  [main:o.a.z.s.ZooKeeperServer@1510] - zookeeper.flushDelay = 0 ms
+2024-12-11 00:31:22,159 [myid:] - INFO  [main:o.a.z.s.ZooKeeperServer@1519] - zookeeper.maxWriteQueuePollTime = 0 ms
+2024-12-11 00:31:22,160 [myid:] - INFO  [main:o.a.z.s.ZooKeeperServer@1528] - zookeeper.maxBatchSize=1000
+2024-12-11 00:31:22,160 [myid:] - INFO  [main:o.a.z.s.ZooKeeperServer@275] - zookeeper.intBufferStartingSizeBytes = 1024
+2024-12-11 00:31:22,160 [myid:] - INFO  [main:o.a.z.s.BlueThrottle@141] - Weighed connection throttling is disabled
+2024-12-11 00:31:22,161 [myid:] - INFO  [main:o.a.z.s.ZooKeeperServer@1311] - minSessionTimeout set to 5000 ms
+2024-12-11 00:31:22,161 [myid:] - INFO  [main:o.a.z.s.ZooKeeperServer@1320] - maxSessionTimeout set to 50000 ms
+2024-12-11 00:31:22,162 [myid:] - INFO  [main:o.a.z.s.ResponseCache@45] - getData response cache size is initialized with value 400.
+2024-12-11 00:31:22,163 [myid:] - INFO  [main:o.a.z.s.ResponseCache@45] - getChildren response cache size is initialized with value 400.
+2024-12-11 00:31:22,164 [myid:] - INFO  [main:o.a.z.s.u.RequestPathMetricsCollector@109] - zookeeper.pathStats.slotCapacity = 60
+2024-12-11 00:31:22,164 [myid:] - INFO  [main:o.a.z.s.u.RequestPathMetricsCollector@110] - zookeeper.pathStats.slotDuration = 15
+2024-12-11 00:31:22,164 [myid:] - INFO  [main:o.a.z.s.u.RequestPathMetricsCollector@111] - zookeeper.pathStats.maxDepth = 6
+2024-12-11 00:31:22,164 [myid:] - INFO  [main:o.a.z.s.u.RequestPathMetricsCollector@112] - zookeeper.pathStats.initialDelay = 5
+2024-12-11 00:31:22,164 [myid:] - INFO  [main:o.a.z.s.u.RequestPathMetricsCollector@113] - zookeeper.pathStats.delay = 5
+2024-12-11 00:31:22,164 [myid:] - INFO  [main:o.a.z.s.u.RequestPathMetricsCollector@114] - zookeeper.pathStats.enabled = false
+2024-12-11 00:31:22,167 [myid:] - INFO  [main:o.a.z.s.ZooKeeperServer@1547] - The max bytes for all large requests are set to 104857600
+2024-12-11 00:31:22,167 [myid:] - INFO  [main:o.a.z.s.ZooKeeperServer@1561] - The large request threshold is set to -1
+2024-12-11 00:31:22,168 [myid:] - INFO  [main:o.a.z.s.AuthenticationHelper@66] - zookeeper.enforce.auth.enabled = false
+2024-12-11 00:31:22,168 [myid:] - INFO  [main:o.a.z.s.AuthenticationHelper@67] - zookeeper.enforce.auth.schemes = []
+2024-12-11 00:31:22,168 [myid:] - INFO  [main:o.a.z.s.ZooKeeperServer@376] - Created server with tickTime 2500 ms minSessionTimeout 5000 ms maxSessionTimeout 50000 ms clientPortListenBacklog -1 datadir /zookeeper/version-2 snapdir /zookeeper/version-2
+2024-12-11 00:31:22,187 [myid:] - INFO  [main:o.e.j.u.l.Log@170] - Logging initialized @431ms to org.eclipse.jetty.util.log.Slf4jLog
+2024-12-11 00:31:22,260 [myid:] - WARN  [main:o.e.j.s.h.ContextHandler@1662] - o.e.j.s.ServletContextHandler@614ca7df{/,null,STOPPED} contextPath ends with /*
+2024-12-11 00:31:22,260 [myid:] - WARN  [main:o.e.j.s.h.ContextHandler@1673] - Empty contextPath
+2024-12-11 00:31:22,278 [myid:] - INFO  [main:o.e.j.s.Server@375] - jetty-9.4.53.v20231009; built: 2023-10-09T12:29:09.265Z; git: 27bde00a0b95a1d5bbee0eae7984f891d2d0f8c9; jvm 17.0.13+11-Ubuntu-2ubuntu124.04
+2024-12-11 00:31:22,302 [myid:] - INFO  [main:o.e.j.s.s.DefaultSessionIdManager@334] - DefaultSessionIdManager workerName=node0
+2024-12-11 00:31:22,302 [myid:] - INFO  [main:o.e.j.s.s.DefaultSessionIdManager@339] - No SessionScavenger set, using defaults
+2024-12-11 00:31:22,303 [myid:] - INFO  [main:o.e.j.s.s.HouseKeeper@132] - node0 Scavenging every 660000ms
+2024-12-11 00:31:22,305 [myid:] - WARN  [main:o.e.j.s.ConstraintSecurityHandler@759] - ServletContext@o.e.j.s.ServletContextHandler@614ca7df{/,null,STARTING} has uncovered http methods for path: /*
+2024-12-11 00:31:22,313 [myid:] - INFO  [main:o.e.j.s.h.ContextHandler@921] - Started o.e.j.s.ServletContextHandler@614ca7df{/,null,AVAILABLE}
+2024-12-11 00:31:22,322 [myid:] - INFO  [main:o.e.j.s.AbstractConnector@333] - Started ServerConnector@10959ece{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+2024-12-11 00:31:22,322 [myid:] - INFO  [main:o.e.j.s.Server@415] - Started @567ms
+2024-12-11 00:31:22,322 [myid:] - INFO  [main:o.a.z.s.a.JettyAdminServer@196] - Started AdminServer on address 0.0.0.0, port 8080 and command URL /commands
+2024-12-11 00:31:22,326 [myid:] - INFO  [main:o.a.z.s.ServerCnxnFactory@169] - Using org.apache.zookeeper.server.NIOServerCnxnFactory as server connection factory
+2024-12-11 00:31:22,327 [myid:] - WARN  [main:o.a.z.s.ServerCnxnFactory@309] - maxCnxns is not configured, using default value 0.
+2024-12-11 00:31:22,328 [myid:] - INFO  [main:o.a.z.s.NIOServerCnxnFactory@652] - Configuring NIO connection handler with 10s sessionless connection timeout, 2 selector thread(s), 24 worker threads, and 64 kB direct buffers.
+2024-12-11 00:31:22,329 [myid:] - INFO  [main:o.a.z.s.NIOServerCnxnFactory@660] - binding to port 0.0.0.0/0.0.0.0:2181
+2024-12-11 00:31:22,336 [myid:] - INFO  [main:o.a.z.s.w.WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2024-12-11 00:31:22,336 [myid:] - INFO  [main:o.a.z.s.w.WatchManagerFactory@42] - Using org.apache.zookeeper.server.watch.WatchManager as watch manager
+2024-12-11 00:31:22,337 [myid:] - INFO  [main:o.a.z.s.ZKDatabase@132] - zookeeper.snapshotSizeFactor = 0.33
+2024-12-11 00:31:22,337 [myid:] - INFO  [main:o.a.z.s.ZKDatabase@152] - zookeeper.commitLogCount=500
+2024-12-11 00:31:22,339 [myid:] - INFO  [main:o.a.z.s.p.SnapStream@61] - zookeeper.snapshot.compression.method = CHECKED
+2024-12-11 00:31:22,341 [myid:] - INFO  [main:o.a.z.s.p.FileSnap@85] - Reading snapshot /zookeeper/version-2/snapshot.79
+2024-12-11 00:31:22,344 [myid:] - INFO  [main:o.a.z.s.DataTree@1724] - The digest value is empty in snapshot
+2024-12-11 00:31:22,349 [myid:] - INFO  [main:o.a.z.s.ZKDatabase@289] - Snapshot loaded in 12 ms, highest zxid is 0x79, digest is 40605127862
+2024-12-11 00:31:22,350 [myid:] - INFO  [main:o.a.z.s.p.FileTxnSnapLog@479] - Snapshotting: 0x79 to /zookeeper/version-2/snapshot.79
+2024-12-11 00:31:22,352 [myid:] - INFO  [main:o.a.z.s.ZooKeeperServer@558] - Snapshot taken in 2 ms
+2024-12-11 00:31:22,359 [myid:] - INFO  [main:o.a.z.s.RequestThrottler@75] - zookeeper.request_throttler.shutdownTimeout = 10000 ms
+2024-12-11 00:31:22,359 [myid:] - INFO  [ProcessThread(sid:0 cport:2181)::o.a.z.s.PrepRequestProcessor@138] - PrepRequestProcessor (sid:0) started, reconfigEnabled=false
+2024-12-11 00:31:22,373 [myid:] - INFO  [main:o.a.z.s.ContainerManager@84] - Using checkIntervalMs=60000 maxPerMinute=10000 maxNeverUsedIntervalMs=0
+2024-12-11 00:31:22,373 [myid:] - INFO  [main:o.a.z.a.ZKAuditProvider@42] - ZooKeeper audit is disabled.
