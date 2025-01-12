@@ -21,14 +21,11 @@ spec:
         io.kompose.service: kafka
     spec:
       containers:
-      - env:
-        - name: KAFKA_PORT
-          value: "9092"
-        image: lcampos01/practica_creativa_docker-kafka:latest
-        name: kafka
-        ports:
-          - containerPort: 9092
-            protocol: TCP
-          - containerPort: 9093
-            protocol: TCP
+        - image: lcampos01/practica_creativa_docker-k8s-kafka:latest
+          name: kafka
+          ports:
+            - containerPort: 9092
+              protocol: TCP
+            - containerPort: 9093
+              protocol: TCP
       restartPolicy: Always

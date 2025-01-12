@@ -79,3 +79,63 @@ services:
       - spark-master
       - spark-worker-1
       - spark-worker-2
+
+  airflow-init:
+    image: lcampos01/practica_creativa_docker-airflow-init:latest
+    container_name: airflow-init
+
+    entrypoint: ["airflow", "db", "init"]  # Use the official Airflow command
+
+    # Optional environment variables for user creation (if desired)
+    environment:
+      - AIRFLOW_USERNAME=admin
+      - AIRFLOW_PASSWORD=admin
+      - FIRST_NAME=Jack
+      - LAST_NAME=Sparrow
+      - ROLE=Admin
+      - EMAIL=example@mail.org
+
+  airflow-webserver:
+    image: apache/airflow:2.1.4-python3.8
+    container_name: airflow-webserver
+    user: "0:0"
+    environment:
+      - AIRFLOW_HOME=/opt/airflow
+      - PROJECT_HOME=/opt/airflow
+      - AIRFLOW_CORE_LOAD_EXAMPLES=False
+      - AIRFLOW_CORE_DAGS_FOLDER=/opt/airflow/dags
+      - AIRFLOW_CORE_EXECUTOR=SequentialExecutor
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./resources/airflow:/opt/airflow
+      - /var/run/docker.sock:/var/run/docker.sock
+    command: >
+      bash -c "
+        pip install -r /opt/airflow/requirements.txt -c /opt/airflow/constraints.txt &&
+        airflow webserver --port 8080
+      "
+    depends_on:
+      - airflow-init
+
+  airflow-scheduler:
+    image: apache/airflow:2.1.4-python3.8
+    container_name: airflow-scheduler
+    user: "0:0"
+    environment:
+      - AIRFLOW_HOME=/opt/airflow
+      - PROJECT_HOME=/opt/airflow
+      - AIRFLOW_CORE_LOAD_EXAMPLES=False
+      - AIRFLOW_CORE_DAGS_FOLDER=/opt/airflow/dags
+      - AIRFLOW_CORE_EXECUTOR=SequentialExecutor
+      
+    volumes:
+      - ./resources/airflow:/opt/airflow
+      - /var/run/docker.sock:/var/run/docker.sock
+    command: >
+      bash -c "
+        pip install -r /opt/airflow/requirements.txt -c /opt/airflow/constraints.txt &&
+        airflow scheduler
+      "
+    depends_on:
+      - airflow-init

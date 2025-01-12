@@ -21,7 +21,7 @@ spec:
         io.kompose.service: spark-master
     spec:
       containers:
-        - image: lcampos01/practica_creativa_docker-spark-master:latest
+        - image: lcampos01/practica_creativa_docker-k8s-spark-master:latest
           name: spark-master
           ports:
             - containerPort: 7077

@@ -21,7 +21,7 @@ spec:
         io.kompose.service: spark-worker-2
     spec:
       containers:
-        - image: lcampos01/practica_creativa_docker-spark-worker:latest
+        - image: lcampos01/practica_creativa_docker-k8s-spark-worker:latest
           name: spark-worker-2
           ports:
             - containerPort: 8081

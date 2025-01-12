@@ -21,7 +21,7 @@ spec:
         io.kompose.service: spark-submit
     spec:
       containers:
-        - image: lcampos01/practica_creativa_docker-spark-submit:latest
+        - image: lcampos01/practica_creativa_docker-k8s-spark-submit:latest
           name: spark-submit
           ports:
             - containerPort: 4040
