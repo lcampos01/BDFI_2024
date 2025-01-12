@@ -44,7 +44,15 @@ docker exec -it kafka /opt/bitnami/kafka/bin/kafka-console-consumer.sh \
 
 ### Spark
 Accediendo a http://localhost:8083/ podemos observar como el servicio está corriendo correctamente con sus respectivos workers.
-![image](https://github.com/user-attachments/assets/3f7816a9-3f6a-4cb6-948c-e91b46817072)
+Nos logeamos, detecta el modelo a entrenar pero al conectarlo con un nuevo contenedor de Spark no funciona correctamente.
+![image](https://github.com/user-attachments/assets/95dd0745-aa70-4ced-8be6-6842e268456e)
+Observamos que no es capaz de entrenar el modelo:
+![image](https://github.com/user-attachments/assets/dcf37cc9-2bc1-445f-a59e-a9b9c2305040)
 
+El error que nos sale es el siguiente:
+```
+[2025-01-12 22:35:05,779] {docker.py:307} INFO - : An error occurred while calling None.org.apache.spark.api.java.JavaSparkContext.
+: org.apache.hadoop.security.KerberosAuthException: failure to login: javax.security.auth.login.LoginException: java.lang.NullPointerException: invalid null input: name
+```
 ### Airflow
 Accedemos a http://localhost:8080 podemos observar la interfaz de airflow:
