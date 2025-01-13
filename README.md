@@ -95,3 +95,5 @@ Posteriormente, empleando la IP externa de la MV accedemos a la URL de flask y e
 Además, podemos observar como los workers de Spark funcionan correctamente:
 ![image](https://github.com/user-attachments/assets/1ed56b50-1aea-420b-a599-377530f5e86d)
 
+En la siguiente captura podemos observar el terminal de la máquina, como están corriendo los servicios y cómo se guardan las peticiones y respuestas en los topics de kafka:
+![image](https://github.com/user-attachments/assets/97264d72-746b-464c-affe-846be4d664f0)
