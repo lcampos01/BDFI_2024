@@ -60,3 +60,38 @@ El error que nos aparece es el siguiente:
 [2025-01-12 22:35:05,779] {docker.py:307} INFO - : An error occurred while calling None.org.apache.spark.api.java.JavaSparkContext.
 : org.apache.hadoop.security.KerberosAuthException: failure to login: javax.security.auth.login.LoginException: java.lang.NullPointerException: invalid null input: name
 ```
+
+### Google Cloud
+Hemos realizado el despliegue en un entorno cloud. Realizando los siguientes pasos:
+
+Hemos desplegado una instancia con imagen ubuntu 22.04 y hemos aplicado un firewall para que permita el tráfico de entrada por todos los puertos.
+![image](https://github.com/user-attachments/assets/75b2af56-f9ad-422c-b118-c71d5e7bf978)
+
+Posteriormente, hemos instalado docker y docker-compose en la MV. Además, hemos clonado nuestro docker-compose.yaml. Hemos tenido que realizar un cambio en dicho YAML debido al mapeo de puertos en flask:
+```
+flask-app:
+    image: lcampos01/practica_creativa_docker-flask_app:latest
+    container_name: flask-app
+    environment:
+      - FLASK_RUN_HOST=0.0.0.0
+      - FLASK_RUN_PORT=5000
+    ports:
+      - "5000:5001"
+
+    depends_on:
+      - kafka
+      - mongodb
+      - spark-master
+      - spark-worker-1
+      - spark-worker-2
+```
+Configuramos un túnel local desde el puerto 5000 al 5001 usando iptables:
+```
+iptables -t nat -A PREROUTING -p tcp --dport 5000 -j REDIRECT --to-port 5001
+```
+Posteriormente, empleando la IP externa de la MV accedemos a la URL de flask y ejecutamos la predicción:
+![image](https://github.com/user-attachments/assets/e79296af-24a4-4e4a-8261-e50f757e8237)
+
+Además, podemos observar como los workers de Spark funcionan correctamente:
+![image](https://github.com/user-attachments/assets/1ed56b50-1aea-420b-a599-377530f5e86d)
+
